@@ -1,0 +1,34 @@
+.transactionHistory {
+    margin-top: 100px;
+    max-width: 600px;
+    width: 100%;
+    color: #767676;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.transactionHistory th,
+.transactionHistory td {
+    padding: 10px 15px;
+    text-align: center;
+    border: 1px solid #d1d1d1;
+}
+
+.transactionHistory th {
+    background-color: #71cbff;
+    color: #fff;
+    font-weight: bold;
+}
+
+.transactionHistory tbody tr {
+    background-color: #fff;
+}
+
+.transactionHistory tbody tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+.transactionHistory td {
+    font-size: 14px;
+    text-transform: capitalize;
+}
